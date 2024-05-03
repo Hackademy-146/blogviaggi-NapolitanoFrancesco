@@ -1,0 +1,218 @@
+body {
+    background: linear-gradient(to right, rgb(177, 247, 242), rgb(250, 246, 181));
+    overflow-x: hidden;
+    padding: 0%;
+    margin: 0%;
+
+
+
+
+
+}
+
+.navprimaria {
+    background: linear-gradient(to top, rgb(183, 245, 242), rgb(245, 243, 181));
+    height: 160px;
+
+
+}
+
+.h3nav {
+    font-size: 100px;
+    font-family: "Sedgwick Ave Display", cursive;
+
+
+
+
+
+
+}
+
+.colortextnav {
+    color: rgb(61, 222, 228);
+
+}
+
+.fontnav {
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+header {
+    height: 100vh;
+    width: 100%;
+
+    background-image: url(/media/haloa.jpg);
+
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titoloheader {
+    font-size: 150px;
+    color: aliceblue;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    margin-right: 60%;
+    font-family: "Protest Revolution", sans-serif;
+
+
+}
+
+section {
+    height: 100vh;
+
+
+}
+
+.cardshome {
+
+    margin-top: 100px;
+}
+
+.card1 {
+    box-shadow: 2px 2px 2px;
+}
+
+
+.card2 {
+    box-shadow: 2px 2px 2px;
+
+
+
+
+
+}
+
+.imglink {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: solid black;
+    padding: 10px;
+    transition: opacity 0.3s ease;
+
+
+
+
+
+}
+
+.imglink:hover {
+    opacity: 0.5;
+}
+
+
+
+.offcanvas {
+    min-height: 400px;
+    background: linear-gradient(to top, rgb(183, 245, 242), rgb(245, 243, 181));
+
+}
+
+.imgcard {
+    width: 100%;
+    height: 200px;
+
+}
+
+.imgsoprafooter {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.margincontainer {
+    margin-top: 200px;
+}
+
+.separatore {
+    width: 500px;
+    height: 300px;
+}
+
+
+footer {
+    margin-top: 250px;
+}
+
+.imglinksocial1 {
+    width: 30px;
+}
+
+
+.buttonlogin {
+    background-color: black;
+    color: aliceblue;
+}
+
+.logofinale {
+    width: 200px;
+
+}
+
+.ultimotitolo {
+    font-family: "Protest Revolution", sans-serif;
+
+
+
+}
+
+.video1 {
+    width: 600px;
+    height: 400px;
+
+}
+
+.articolo1primapagina {
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 430px) {
+
+
+
+
+
+
+
+
+
+    .titoloheader {
+
+
+        font-size: 100px;
+        margin-left: 150px;
+    }
+
+    .separatore {
+        width: 300px;
+
+    }
+
+    footer {
+        margin-top: 1500px;
+    }
+
+    .video1 {
+        width: 350px;
+        height: 300px;
+
+    }
+
+    .footer1 {
+        height: 400px;
+    }
+
+
+
+}
